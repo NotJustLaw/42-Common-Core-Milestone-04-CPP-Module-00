@@ -6,7 +6,7 @@
 /*   By: notjustlaw <notjustlaw@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/17 14:10:27 by notjustlaw        #+#    #+#             */
-/*   Updated: 2025/11/17 15:12:14 by notjustlaw       ###   ########.fr       */
+/*   Updated: 2025/11/21 18:58:09 by notjustlaw       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,8 @@ class PhoneBook{
 		int	index_tracking;
 	public:
 		PhoneBook();
-
 		void add();
 		void search();
-
-		
 };
 
 

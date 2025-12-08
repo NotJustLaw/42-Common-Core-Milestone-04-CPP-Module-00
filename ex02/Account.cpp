@@ -1,34 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Phonebook.hpp                                      :+:      :+:    :+:   */
+/*   Account.cpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: notjustlaw <notjustlaw@student.42.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/11/17 14:10:27 by notjustlaw        #+#    #+#             */
-/*   Updated: 2025/11/29 17:47:45 by notjustlaw       ###   ########.fr       */
+/*   Created: 2025/11/30 15:07:14 by notjustlaw        #+#    #+#             */
+/*   Updated: 2025/12/01 17:48:46 by notjustlaw       ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef	PHONEBOOK_HPP
-# define PHONEBOOK_HPP
+#include "Account.hpp"
 
 
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <cstdlib>
-#include "Contact.hpp"
+static int	getNbAccounts( void ){
+	
+}
 
-class PhoneBook{
-	private:
-		Contact contacts[8];
-		int	index_tracking;
-	public:
-		PhoneBook();
-		void add();
-		void search();
-};
+static int	getTotalAmount( void ){
+	
+}
 
+static int	getNbDeposits( void ){
+	
+}
 
-#endif
+static int	getNbWithdrawals( void ){
+	
+}
+
+static void	displayAccountsInfos( void ){
+	
+}

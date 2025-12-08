@@ -5,33 +5,8 @@
 #                                                     +:+ +:+         +:+      #
 #    By: notjustlaw <notjustlaw@student.42.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2025/11/29 17:46:17 by notjustlaw        #+#    #+#              #
-#    Updated: 2025/11/29 17:46:18 by notjustlaw       ###   ########.fr        #
+#    Created: 2025/11/30 15:07:05 by notjustlaw        #+#    #+#              #
+#    Updated: 2025/11/30 15:07:06 by notjustlaw       ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = phonebook
-
-CXX = c++
-CXXFLAGS = -Wall -Wextra -Werror -std=c++98
-
-SRC = main.cpp Phonebook.cpp Contact.cpp
-OBJ = $(SRC:.cpp=.o)
-
-all: $(NAME)
-
-$(NAME): $(OBJ)
-	$(CXX) $(CXXFLAGS) $(OBJ) -o $(NAME)
-
-%.o: %.cpp
-	$(CXX) $(CXXFLAGS) -c $< -o $@
-
-clean:
-	rm -f $(OBJ)
-
-fclean: clean
-	rm -f $(NAME)
-
-re: fclean all
-
-.PHONY: all clean fclean re
